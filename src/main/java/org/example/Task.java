@@ -1,6 +1,9 @@
 package org.example;
 
-public class Task {
+import java.io.Serial;
+import java.io.Serializable;
+
+public class Task  implements Serializable {
     private String taskAction;
     private boolean taskCompleted;
 
